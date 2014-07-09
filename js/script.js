@@ -4,8 +4,7 @@ function changeBackground(){
   var regexp = /(\d+)(?!.*\d)/;
   var background_src = document.getElementById("left-gifs").style.background;
   var background_count = parseInt(regexp.exec(background_src)[0]);
-  var new_bg_cnt = background_count + 1;
-
+  var new_bg_cnt = background_count+1;
   if( background_count == 4 ){
     new_bg_cnt = 1;
   }
