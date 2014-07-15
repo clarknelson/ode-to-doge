@@ -5,7 +5,7 @@ function changeBackground(){
   var background_src = document.getElementById("left-gifs").style.background;
   var background_count = parseInt(regexp.exec(background_src)[0]);
   var new_bg_cnt = background_count+1;
-  if( background_count == 4 ){
+  if( background_count == 5 ){
     new_bg_cnt = 1;
   }
   var new_bg_src = background_src.replace(background_count, new_bg_cnt);
