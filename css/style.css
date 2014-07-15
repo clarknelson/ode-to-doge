@@ -75,6 +75,9 @@ footer>h2>a:hover,footer>h3>a:hover,footer>h4>a:hover{
 
 #gallery>img{
   width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
 }
 .active{
   display: block;
